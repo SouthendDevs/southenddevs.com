@@ -39,7 +39,7 @@
         <div class="container">
             <div class="content">
                 <img style="margin-left:auto; margin-right:auto; display: block;" src="website-under-construction.gif" />
-                <div class="title">Laravel 5</div>
+                <div class="title">SouthendDevs &#x2661; Pizza</div>
             </div>
         </div>
     </body>
