@@ -265,22 +265,29 @@
                 <hr class="primary">
             </div>
 
-            <div class="col-sm-4 col-sm-offset-0 text-center">
+            <div class="col-sm-3 col-sm-offset-0 text-center">
                 <a href="http://www.github.com/southenddevs">
                     <i class="white fa fa-github fa-3x wow bounceIn" data-wow-delay=".2s"></i>
                     <p>github.com/SouthendDevs</p></a>
             </div>
 
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-3 text-center">
                 <a href="http://www.twitter.com/southenddevs">
                     <i class="white fa classhack-fa-twitter fa-3x wow bounceIn" data-wow-delay=".4s"></i>
                     <p>@SouthendDevs</p></a>
             </div>
 
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-3 text-center">
+                <a href="http://linkedin.com/groups/8524639">
+                    <i class="white fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".6s"></i>
+                    <p>LinkedIn</p></a>
+            </div>
+
+            <div class="col-sm-3 text-center">
                 <a style="cursor:pointer;" onclick="alert('Attend the meet to join the Slack!')">
-                    <i class="white fa fa-slack fa-3x wow bounceIn" data-wow-delay=".6s"></i>
-                    <p>Slack</p></a>
+                    <i class="white fa fa-slack fa-3x wow bounceIn" data-wow-delay=".8s"></i>
+                    <p>Slack</p>
+                </a>
             </div>
         </div>
 
