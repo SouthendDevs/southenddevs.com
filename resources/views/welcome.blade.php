@@ -129,6 +129,8 @@
                     <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".6s"></i>
                     <h3>Date</h3>
                     <p class="text-muted">Every Tuesday</p>
+                    <p><span class="text-muted">Next:</span>
+                        <strong>{!!$next_meeting_time_str!!}</strong></p>
                 </div>
             </div>
 
