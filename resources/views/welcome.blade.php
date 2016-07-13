@@ -39,6 +39,23 @@
         .white {
             color:white;
         }
+        
+        .strike {
+            text-decoration: none;    /*we're replacing the default line-through*/
+            position: relative;
+            display: inline-block; /* don't wrap to multiple lines */
+        }
+        .strike:after {
+            content:"";    /* required property */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-top: 2px solid black;
+            height: 45%;    /* adjust as necessary, depending on line thickness */
+            /* or use calc() if you don't need to support IE8: */
+            height: calc(50% - 1px); /* 1px = half the line thickness */
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -121,7 +138,11 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-map-marker wow bounceIn text-primary" data-wow-delay=".5s"></i>
                     <h3>Place</h3>
-                    <p class="text-muted">Baxter Building, <br>80 Baxter Ave </p>
+                    <p style="text-decoration:none;" class="text-muted">
+                        <span class="strike">Baxter Building,</span><br>
+                        <span class="strike">80 Baxter Ave</span><br>
+   
+                    </p>
                 </div>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 text-center">
@@ -179,7 +200,10 @@
             </div>
 
         </div>
+        <br>
+        <p style="text-align:center; color:#f33;">Still Tuesdays, but we have temporarily moved for a couple of weeks:<br> IFP Ltd (front door says BSNL, go upstairs, then left),<br> Unit 6 Victoria Business Park, Short St, SS2 5BY<br></p>
     </div>
+
 </section>
 
 <section class="bg-primary" id="portfolio">
