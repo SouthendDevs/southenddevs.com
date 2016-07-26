@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'HomePageController@home');
+Route::get('/',     'HomePageController@home');
+Route::get('/live', 'HomePageController@watchLivePage');
 
 Route::get('/old', function () {
     return view('old_under_construction_page');

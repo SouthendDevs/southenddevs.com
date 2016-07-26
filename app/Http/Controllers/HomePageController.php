@@ -29,12 +29,15 @@ class HomePageController extends Controller
 
     public function home()
     {
-
-
         //dd($date);
 
         return view('welcome', [
             'next_meeting_time_str' => $this->getNextMeetingTimeStr()
         ]);
+    }
+
+    public function watchLivePage()
+    {
+        return view('watchlive');
     }
 }

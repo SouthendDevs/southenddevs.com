@@ -61,6 +61,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
+                    <a href="/live">Watch Live!</a>
+                </li>                
+		<li>
                     <a class="page-scroll" href="#about">About Us</a>
                 </li>
                 <li>
@@ -80,7 +83,7 @@
 </nav>
 
 <header>
-    <div class="header-content">
+    <div class="header-content" id="home">
         <div class="header-content-inner">
             <h1>Southend Devs</h1>
             <hr>
