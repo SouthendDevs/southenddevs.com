@@ -141,7 +141,6 @@
                     <p style="text-decoration:none;" class="text-muted">
                         <span class="strike">Baxter Building,</span><br>
                         <span class="strike">80 Baxter Ave</span><br>
-   
                     </p>
                 </div>
             </div>
@@ -151,7 +150,15 @@
                     <h3>Date</h3>
                     <p class="text-muted">Every Tuesday</p>
                     <p><span class="text-muted">Next:</span>
-                        <strong>{!!$next_meeting_time_str!!}</strong></p>
+                        <?php use Carbon\Carbon; ?>
+                        <?php //Carbon::setTestNow(Carbon::create(2016,8,4)); ?>
+                        <?php $unix_time = intval(Carbon::now()->format('U')); ?>
+                        @if($unix_time < 1470225600)
+                            <strong><span class="strike" style='color:red;'>Tue 2</span> <br><span style=''>Tue 9 Aug</span></strong>
+                        @else
+                            <strong>{!! $next_meeting_time_str !!}</strong>
+                        @endif
+                    </p>
                 </div>
             </div>
 
@@ -201,6 +208,9 @@
 
         </div>
         <br>
+        @if($unix_time < 1470189600)
+            <h2 style="text-align:center; color:red">Cancelled this week (2nd Aug) due to illness.</h2>
+        @endif
         <p style="text-align:center; color:#f33;">Still Tuesdays, but we have temporarily moved for a couple of weeks:<br> IFP Ltd (front door says BSNL, go upstairs, then left),<br> Unit 6 Victoria Business Park, Short St, SS2 5BY<br></p>
     </div>
 
