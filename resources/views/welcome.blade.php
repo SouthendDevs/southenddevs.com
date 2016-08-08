@@ -211,10 +211,7 @@
         @if($unix_time < 1470189600)
             <h2 style="text-align:center; color:red">Cancelled this week (2nd Aug) due to illness.</h2>
         @endif
-        <p style="text-align:center; color:#f33;">
-        <!-- Still Tuesdays, but we have temporarily moved for a couple of weeks:<br> IFP Ltd (front door says BSNL, go upstairs, then left),<br> Unit 6 Victoria Business Park, Short St, SS2 5BY<br> -->
-        Location TBC
-        </p>
+        <p style="text-align:center; color:#f33;">Still Tuesdays, but we have temporarily moved for a couple of weeks:<br> IFP Ltd (front door says BSNL, go upstairs, then left),<br> Unit 6 Victoria Business Park, Short St, SS2 5BY<br></p>
     </div>
 
 </section>
