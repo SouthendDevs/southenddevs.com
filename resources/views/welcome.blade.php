@@ -113,7 +113,7 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">About Us</h2>
                 <hr class="light">
-                <p class="text-faded">We're a friendly bunch of devs who meet weekly, to discuss everything and anything related to development, web and otherwise - frontend, backend, convoluted database/XML/JSON issues, OO design, TDD, Linux ops, you name it. PHP, Laravel, Ruby, JQuery, CSS, SASS, MongoDB, Redis, Java, C#, Golang and more.
+                <p class="text-faded">We're a friendly bunch of devs who meet weekly, to discuss everything and anything related to development, web and otherwise - frontend, backend, database/XML/JSON issues, OO design, TDD, Linux ops, you name it. PHP, Java, Python, Laravel, Ruby, JQuery, CSS, SASS, MongoDB, Redis, Java, C#, Golang and more.
                     <br>We also like games, memes and other silly geeky things.
                     <br>
                     <br>Anyone and everyone welcome!<br><span style="font-size:50%">as long as they can chip in for pizza</span></p>
@@ -139,8 +139,8 @@
                     <i class="fa fa-4x fa-map-marker wow bounceIn text-primary" data-wow-delay=".5s"></i>
                     <h3>Place</h3>
                     <p style="text-decoration:none;" class="text-muted">
-                        <span class="strike">Baxter Building,</span><br>
-                        <span class="strike">80 Baxter Ave</span><br>
+                        <span>Baxter Building,</span><br>
+                        <span>80 Baxter Ave</span><br>
                     </p>
                 </div>
             </div>
@@ -150,14 +150,7 @@
                     <h3>Date</h3>
                     <p class="text-muted">Every Tuesday</p>
                     <p><span class="text-muted">Next:</span>
-                        <?php use Carbon\Carbon; ?>
-                        <?php //Carbon::setTestNow(Carbon::create(2016,8,4)); ?>
-                        <?php $unix_time = intval(Carbon::now()->format('U')); ?>
-                        @if($unix_time < 1470225600)
-                            <strong><span class="strike" style='color:red;'>Tue 2</span> <br><span style=''>Tue 9 Aug</span></strong>
-                        @else
-                            <strong>{!! $next_meeting_time_str !!}</strong>
-                        @endif
+                        <strong>{!! $next_meeting_time_str !!}</strong>
                     </p>
                 </div>
             </div>
@@ -207,11 +200,6 @@
             </div>
 
         </div>
-        <br>
-        @if($unix_time < 1470189600)
-            <h2 style="text-align:center; color:red">Cancelled this week (2nd Aug) due to illness.</h2>
-        @endif
-        <p style="text-align:center; color:#f33;">Still Tuesdays, but we have temporarily moved for a couple of weeks:<br> IFP Ltd (front door says BSNL, go upstairs, then left),<br> Unit 6 Victoria Business Park, Short St, SS2 5BY<br></p>
     </div>
 
 </section>
