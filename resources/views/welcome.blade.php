@@ -139,8 +139,9 @@
                     <i class="fa fa-4x fa-map-marker wow bounceIn text-primary" data-wow-delay=".5s"></i>
                     <h3>Place</h3>
                     <p style="text-decoration:none;" class="text-muted">
-                        <span>Baxter Building,</span><br>
-                        <span>80 Baxter Ave</span><br>
+                        <span class="strike">Baxter Building,</span><br>
+                        <span class="strike">80 Baxter Ave</span><br>
+                        <span class="">See below</span><br>
                     </p>
                 </div>
             </div>
@@ -200,7 +201,12 @@
             </div>
 
         </div>
+       
     </div>
+    
+    <div style="text-align:center; color:#d00;"><h3>We are meeting at IFP Ltd for the next few weeks as our usual place is unavailable.<br>IFP Ltd, Unit 6 Victoria Business Park, Short St, Southend<br>SS2 5BY<br><br>The door says BSNL; walk through, go upstairs and turn left.</h3></div>
+
+    
 
 </section>
 
