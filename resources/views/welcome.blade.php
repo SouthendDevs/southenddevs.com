@@ -139,9 +139,9 @@
                     <i class="fa fa-4x fa-map-marker wow bounceIn text-primary" data-wow-delay=".5s"></i>
                     <h3>Place</h3>
                     <p style="text-decoration:none;" class="text-muted">
-                        <span class="">Baxter Building,</span><br>
-                        <span class="">80 Baxter Ave</span><br>
-                        {{-- <span class="strike">80 Baxter Ave</span><br> --}}
+                        {{-- <span class="">Baxter Building,</span><br> --}}
+                        {{-- <span class="">80 Baxter Ave</span><br> --}}
+                        <span class="strike">80 Baxter Ave</span><br>
                     </p>
                 </div>
             </div>
@@ -149,9 +149,9 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".6s"></i>
                     <h3>Date</h3>
-                    <p class="text-muted">Every Tuesday</p>
-                    <p><span class="text-muted">Next:</span>
-                        <strong>{!! $next_meeting_time_str !!}</strong>
+                    <p class="text-muted">Returning in the New Year</p>
+                    {{-- <p><span class="text-muted">Next:</span> --}}
+                        <strong>{{-- {!! $next_meeting_time_str !!} --}}</strong>
                     </p>
                 </div>
             </div>
@@ -201,7 +201,9 @@
             </div>
 
         </div>
-       
+        <div class="row" style="color:red; font-size:1.3em; text-align:center"> 
+          <br><br>We are off for Xmas, check our Twitter for further info!
+        </div> 
     </div>
     
 
