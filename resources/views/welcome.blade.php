@@ -202,7 +202,7 @@
 
         </div>
         <div class="row" style="color:red; font-size:1.3em; text-align:center"> 
-          <br><br>We are off for Xmas, check our Twitter for further info!
+          <br><br>We are off for Xmas, check our <a class="page-scroll" href="#contact">Twitter</a> for further info!
         </div> 
     </div>
     
